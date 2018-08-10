@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.duongvyluan.note_nodejs_postgressql.DetailsActivity.View.Main2Activity_Details">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/editText_Title_Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8d94a0"
+        android:hint="Title"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editText_Content_Details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:gravity="top"
+        android:hint="Content"
+        android:inputType="textMultiLine"
+        android:padding="16dp"
+        android:textSize="22sp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_save"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="center|bottom"
+        android:layout_margin="5dp"
+        android:layout_weight="0"
+        android:src="@mipmap/ic_save_white_18dp"
+        app:borderWidth="0dp" />
+</LinearLayout>

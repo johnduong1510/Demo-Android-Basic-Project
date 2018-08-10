@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    >
+    <view xmlns:android="http://schemas.android.com/apk/res/android"
+        class="com.dvl.tablayout_materialdesign.LineEditText"
+        android:id="@+id/note"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="#03A9F4"
+        android:padding="5dp"
+        android:scrollbars="vertical"
+        android:fadingEdge="vertical"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:maxLines="999"
+        android:textSize="22sp" />
+    <Button
+        style="@style/Custom_Button_1"
+        android:background="@drawable/custom_button_1"
+        android:text="@string/save_bt"
+        android:id="@+id/button4" />
+
+
+</LinearLayout>

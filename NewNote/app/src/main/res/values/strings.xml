@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewNote</string>
+    <string name="fragment_schedule_title">Schedule</string>
+    <string name="fragment_note_title">Note</string>
+</resources>

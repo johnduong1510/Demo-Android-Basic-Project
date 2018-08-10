@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Demo-QuanLyCongViec-Database</string>
+    <string name="add_bt">Thêm</string>
+    <string name="edit_bt">Sửa</string>
+    <string name="cancel_bt">Hủy</string>
+    <string name="add_new">Thêm công việc</string>
+    <string name="edit">Sửa</string>
+    <string name="remove">Xóa</string>
+    <string name="input_work">Nhập công việc</string>
+    <string name="input_time">Nhập thời gian</string>
+    <string name="add_success">Thêm thành công</string>
+    <string name="remove_success">Xóa thành công</string>
+    <string name="error_empty">Bạn chưa nhập liệu</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

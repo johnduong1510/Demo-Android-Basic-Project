@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ad="http://schemas.android.com/apk/res-auto"
+    >
+   <item android:id="@+id/accept"
+       android:title="accept"
+       android:icon="@mipmap/ic_accept"
+       ad:showAsAction="ifRoom"
+       ></item>
+
+   <item
+       android:id="@+id/call"
+       android:title="call"
+       android:icon="@mipmap/ic_call"
+       ad:showAsAction="ifRoom"
+      ></item>
+
+   <item
+       android:id="@+id/option"
+       android:title="Option"
+       android:icon="@mipmap/ic_optionmenu"
+       ad:showAsAction="always"
+      >
+      <menu>
+         <item
+             android:id="@+id/option1"
+             android:title="Capture"
+             android:icon="@mipmap/ic_option1"
+             >
+         </item>
+
+         <item
+             android:id="@+id/option2"
+             android:title="SMS"
+             android:icon="@mipmap/ic_option2"
+             ></item>
+      </menu>
+   </item>
+
+</menu>
